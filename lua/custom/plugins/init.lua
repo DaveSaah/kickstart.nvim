@@ -6,6 +6,9 @@ return {
   },
 
   require 'custom.plugins.catppuccin',
+  require 'custom.plugins.lualine',
+  require 'custom.plugins.autopairs',
+  require 'custom.plugins.neotree',
 
   -- UNDO tree
   {
