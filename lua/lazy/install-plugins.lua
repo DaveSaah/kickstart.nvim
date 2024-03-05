@@ -1,4 +1,7 @@
 require('lazy').setup {
+  defaults = {
+    lazy = true,
+  },
   -- LSP Configuration & Plugins
   {
     'neovim/nvim-lspconfig',

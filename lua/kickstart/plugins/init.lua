@@ -3,11 +3,10 @@ return {
   'tpope/vim-sleuth',
 
   -- "gc" to comment visual regions/lines
-  { 'numToStr/Comment.nvim', opts = {} },
+  { 'numToStr/Comment.nvim', event = 'VeryLazy', opts = {} },
 
   require 'kickstart.plugins.todo-comments',
   require 'kickstart.plugins.mini',
-  require 'kickstart.plugins.debug',
   require 'kickstart.plugins.indent_line',
   require 'kickstart.plugins.treesitter',
   require 'kickstart.plugins.autocomplete',

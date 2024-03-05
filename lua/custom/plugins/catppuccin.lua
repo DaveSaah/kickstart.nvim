@@ -1,6 +1,6 @@
 return {
   'catppuccin/nvim',
-  lazy = false,
+  event = 'VimEnter',
   priority = 1000,
   config = function()
     -- Load the colorscheme here
