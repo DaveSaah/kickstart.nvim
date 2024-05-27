@@ -6,7 +6,6 @@ end
 
 local options_global = {
   hlsearch = false,
-  noswapfile = true,
 }
 
 local opts = {

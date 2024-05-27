@@ -36,13 +36,6 @@ return {
     event = 'VeryLazy',
   },
 
-  -- vim latex live preview
-  {
-    'xuhdev/vim-latex-live-preview',
-    event = 'VeryLazy',
-    ft = { 'tex' },
-  },
-
   -- ASM LSP
   {
     'bergercookie/asm-lsp',

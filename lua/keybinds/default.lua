@@ -2,6 +2,9 @@ local assign = vim.keymap.set
 local run = vim.cmd
 
 assign('n', '<Esc>', '<cmd>nohlsearch<CR>')
+assign('n', '<C-s>', '<cmd>:w<CR>')
+assign('v', '<C-s>', '<ESC><cmd>:w<CR>')
+assign('i', '<C-s>', '<ESC><cmd>:w<CR>')
 
 assign('n', '[c', function()
   require('treesitter-context').go_to_context()
@@ -32,3 +35,5 @@ assign('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
 assign('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
 assign('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 assign('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
+
+assign('n', '<leader>bd', '<cmd>bdelete<CR>', { desc = 'Delete current buffer' })
