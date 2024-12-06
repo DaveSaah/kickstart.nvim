@@ -22,25 +22,9 @@ return {
     event = 'VimEnter',
   },
 
-  -- rust toolkit
-  {
-    'mrcjkb/rustaceanvim',
-    version = '^3', -- Recommended
-    ft = { 'rust' },
-    event = 'VeryLazy',
-  },
-
   -- context
   {
     'nvim-treesitter/nvim-treesitter-context',
     event = 'VeryLazy',
-  },
-
-  -- ASM LSP
-  {
-    'bergercookie/asm-lsp',
-    event = { 'VeryLazy' },
-    ft = { 'asm' },
-    filetypes = { 'asm', 's', 'S' },
   },
 }
