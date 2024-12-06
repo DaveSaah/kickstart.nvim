@@ -3,4 +3,4 @@ local run = vim.cmd
 
 assign('n', '<leader>e', function()
   run 'Neotree toggle'
-end, { desc = 'See filetree' }, { silent = true })
+end, { desc = 'See filetree' })
