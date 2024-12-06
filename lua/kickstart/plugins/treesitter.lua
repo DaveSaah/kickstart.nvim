@@ -17,7 +17,9 @@ return {
         'markdown',
         'vim',
         'vimdoc',
-        'rust',
+        'haskell',
+        'json',
+        'yaml',
       },
 
       -- Autoinstall languages that are not installed
