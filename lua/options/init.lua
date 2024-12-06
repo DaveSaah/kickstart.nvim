@@ -23,7 +23,7 @@ local opts = {
   relativenumber = true,
 
   -- Enable mouse mode, can be useful for resizing splits for example!
-  mouse = 'a',
+  mouse = '',
 
   -- Don't show the mode, since it's already in status line
   showmode = false,
@@ -57,8 +57,8 @@ local opts = {
   -- Sets how neovim will display certain whitespace in the editor.
   --  See `:help 'list'`
   --  and `:help 'listchars'`
-  list = true,
-  listchars = { tab = '» ', trail = '·', nbsp = '␣' },
+  list = false,
+  -- listchars = { tab = '» ', trail = '·', nbsp = '␣' },
 
   -- Preview substitutions live, as you type!
   inccommand = 'split',
@@ -74,6 +74,9 @@ local opts = {
 
   -- Set highlight on search, but clear on pressing <Esc> in normal mode
   hlsearch = true,
+
+  -- set colorcolumn
+  colorcolumn = '80',
 }
 
 set_options(vim.o, options_global)
