@@ -28,3 +28,10 @@ assign('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
 -- buffers
 assign('n', '<leader>bd', '<cmd>bdelete<CR>', { desc = '[D]elete current buffer' })
+assign('n', '<leader>`', '<cmd>bprevious<CR>', { desc = 'Switch to previous buffer' })
+
+-- lazy
+assign('n', '<leader>l', '<cmd>Lazy<CR>', { desc = 'Lazy Manager' })
+
+-- mason
+assign('n', '<leader>cm', '<cmd>Mason<CR>', { desc = 'Mason Manager' })
