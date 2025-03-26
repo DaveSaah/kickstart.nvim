@@ -5,7 +5,6 @@ return {
     lazy = false,
   },
 
-  require 'custom.plugins.catppuccin',
   require 'custom.plugins.lualine',
   require 'custom.plugins.autopairs',
   require 'custom.plugins.neotree',
@@ -30,11 +29,11 @@ return {
 
   -- flutter
   {
-    "nvim-flutter/flutter-tools.nvim",
+    'nvim-flutter/flutter-tools.nvim',
     lazy = false,
     dependencies = {
-      "nvim-lua/plenary.nvim",
-      "stevearc/dressing.nvim", -- optional for vim.ui.select
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
     },
     config = true,
   },
