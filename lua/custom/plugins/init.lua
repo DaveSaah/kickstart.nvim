@@ -5,6 +5,7 @@ return {
     lazy = false,
   },
 
+  require 'custom.plugins.catppuccin',
   require 'custom.plugins.lualine',
   require 'custom.plugins.autopairs',
   require 'custom.plugins.neotree',
